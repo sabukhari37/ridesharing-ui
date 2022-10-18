@@ -1,0 +1,45 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.bg__wrapper { 
+    background-color: #2E2E2E;
+    color: #fff;
+    height: 100vh;
+}
+
+.lg__wrapper {
+    height: 50rem;
+}
+
+.lg__card {
+    border: 1px solid;
+    width: 35rem;
+    text-align: left;
+    background: #fff;
+    color: #000;
+    margin-top: 10rem;
+    div {
+        margin-left: 1rem;
+    }
+
+    input {
+        border-radius: 0.5rem;
+        background: #eee;
+        padding: 0.3rem;
+        border: transparent;
+    }
+
+    span {
+        font-size: 0.7rem;
+        color: #9F9F9F;
+    }
+
+    button {
+        background: #EDB647;
+        color: #fff;
+        border: 1px;
+        border-radius: 1.5rem;
+        padding: 1rem;
+        width: 7rem;
+    }
+}
+
